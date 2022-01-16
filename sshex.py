@@ -4,9 +4,9 @@ import getpass
 import os.path
 import datetime
 
-host = 'jump.websitehostserver.net'
+host = '---'
 name = 'uateam'
-secret = '/home/%s/.ssh/id_rsa_uateam@jump.websitehostserver.net' % getpass.getuser()
+secret = '/home/%s/.ssh/-----' % getpass.getuser()
 
 
 def runCommand(command, list):
@@ -71,7 +71,7 @@ def getListServers():
 
 print('''
 	#####################################
-	Powered by Nikolay Barkov
+	Powered by Nikolay
 	Quick execute command on all servers:
 	#####################################\n\n
 	1. Run command on all servers
